@@ -22,6 +22,6 @@ env/
 Thumbs.db
 
 # Data & Models (根据你的需要，大文件通常也不上传)
-*.pkl
+.pkl
 *.csv
 !requirements.txt
