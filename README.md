@@ -5,6 +5,9 @@ This project implements a machine learning solution to predict passenger surviva
 
 The project is structured to reflect industry-relevant practices and aligns closely with core modules of advanced Data Science curricula, such as Applied Statistics, Machine Learning, and Big Data Processing.
 
+<img width="1360" height="633" alt="ScreenShot" src="https://github.com/user-attachments/assets/a786702c-f636-4c35-b2c6-1e69a29075bb" />
+
+
 ## Motivation
 This project was developed to solidify my practical skills in applied data science and to build a portfolio piece that showcases end-to-end competency—from data wrangling to a deployable product. It directly demonstrates the skills required for data-intensive MSc programs.
 
