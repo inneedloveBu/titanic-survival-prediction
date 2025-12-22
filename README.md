@@ -41,9 +41,11 @@ This project was developed to solidify my practical skills in applied data scien
     # On macOS/Linux: source venv/bin/activate
     pip install -r requirements.txt
     ```
-3.  **Download the data**
-    *   Download `train.csv` and `test.csv` from the [Kaggle competition page](https://www.kaggle.com/c/titanic/data).
-    *   Place them in the project root directory.
+3.  **Download the competition data**
+    *   This project uses the datasets from the Kaggle competition.
+    *   Please visit the [official competition data page](https://www.kaggle.com/c/titanic/data).
+    *   You will need to **download `train.csv` and `test.csv`** (registration on Kaggle is required).
+    *   Place the downloaded files in the root directory of this project.
 4.  **Train the model and generate predictions**
     ```bash
     python model_training.py
