@@ -53,7 +53,7 @@ This project was developed to solidify my practical skills in applied data scien
     Then open your browser and go to `http://localhost:7860`.
 
 ## Key Results & Insights
-*   The baseline Random Forest model achieved a validation accuracy of **XX.XX%**.
+*   The baseline Random Forest model achieved a validation accuracy of 0.8156.
 *   After feature engineering and hyperparameter tuning via `GridSearchCV`, the optimized model achieved:
     *   **Best Cross-Validation Score:** **0.8258**
     *   **Validation Set Accuracy:** **0.8101**
