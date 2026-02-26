@@ -1,6 +1,6 @@
 # Titanic Survival Prediction - A Data Science Project
 
-[![bilibili](https://img.shields.io/badge/🎥-View%20on%20Bilibili-yellow)](https://www.bilibili.com/video/BV1tFdWY4Epd)  
+[![bilibili](https://img.shields.io/badge/🎥-View%20on%20Bilibili-red)](https://www.bilibili.com/video/BV1tFdWY4Epd)  
 
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗-Huggingon%20Faceon%20Spaces-blue)](https://huggingface.co/spaces/indeedlove/titanic-survival-predictor) 
 [![GitHub](https://img.shields.io/badge/📂-GitHub-black)](https://github.com/inneedloveBu/titanic-survival-prediction)
