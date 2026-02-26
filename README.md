@@ -1,8 +1,10 @@
 # Titanic Survival Prediction - A Data Science Project
 
+[![bilibili](https://img.shields.io/badge/🎥-View%20on%20Bilibili-yellow)](https://www.bilibili.com/video/BV1tFdWY4Epd)  
+
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗-Demo%20on%20Spaces-blue)](https://huggingface.co/spaces/indeedlove/titanic-survival-predictor) 
 [![GitHub](https://img.shields.io/badge/📂-View%20on%20GitHub-black)](https://github.com/inneedloveBu/titanic-survival-prediction)
-[![bilibili](https://img.shields.io/badge/🎥-View%20on%20Bilibili-yellow)](https://www.bilibili.com/video/BV1tFdWY4Epd)  
+
 
 ## Project Overview
 This project implements a machine learning solution to predict passenger survival on the Titanic, based on the famous [Kaggle competition](https://www.kaggle.com/c/titanic). It demonstrates a complete data science pipeline: from **Exploratory Data Analysis (EDA)** and **feature engineering** to **model training/optimization** with `GridSearchCV`, **model persistence**, and finally, the deployment of an **interactive web application** using Gradio.
