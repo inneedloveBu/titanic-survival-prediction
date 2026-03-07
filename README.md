@@ -88,18 +88,9 @@ These engineered variables improve model performance and interpretability.
 
 
 titanic-survival-prediction
-│
-├── data
-│ ├── train.csv
-│ └── test.csv
-│
-├── notebooks
-│ └── eda_analysis.ipynb
-│
-├── model_training.py
-├── app_gradio.py
-├── requirements.txt
-└── README.md
+
+<img width="272" height="411" alt="struct-tatanic" src="https://github.com/user-attachments/assets/c371fddb-03b2-4b93-9941-6d89741bf555" />
+
 
 
 This structure separates **data analysis, model training, and deployment**, reflecting common industry and research project organization.
@@ -121,7 +112,9 @@ The trained model is deployed through a **Gradio web interface** that allows use
 ```bash
 git clone https://github.com/inneedloveBu/titanic-survival-prediction.git
 cd titanic-survival-prediction
-2. Create a virtual environment
+```
+### 2. Create a virtual environment
+```bash
 python -m venv venv
 
 Activate environment
@@ -133,9 +126,10 @@ venv\Scripts\activate
 Mac/Linux
 
 source venv/bin/activate
-3. Install dependencies
+```
+### 3. Install dependencies
 pip install -r requirements.txt
-4. Download Kaggle Dataset
+### 4. Download Kaggle Dataset
 
 Download:
 
@@ -149,7 +143,7 @@ https://www.kaggle.com/c/titanic/data
 
 Place them in the project root directory.
 
-5. Train the model
+### 5. Train the model
 python model_training.py
 
 This will:
