@@ -128,24 +128,26 @@ Mac/Linux
 source venv/bin/activate
 ```
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 ### 4. Download Kaggle Dataset
 
 Download:
-
+```bash
 train.csv
 
 test.csv
-
+```
 from the Kaggle competition page:
 
 https://www.kaggle.com/c/titanic/data
 
 Place them in the project root directory.
-
 ### 5. Train the model
+```bash
 python model_training.py
-
+```
 This will:
 
 train the Random Forest model
@@ -157,49 +159,52 @@ output evaluation metrics
 generate a prediction file
 
 6. Launch the interactive application
+
+```bash
 python app_gradio.py
-
+```
 Then open:
-
+```bash
 http://localhost:7860
-Key Results & Insights
+```
+## Key Results & Insights
 
 The baseline Random Forest model achieved a validation accuracy of:
 
-0.8156
+-** 0.8156**
 
 After feature engineering and hyperparameter optimization using GridSearchCV:
 
-Best Cross-Validation Score: 0.8258
+-** Best Cross-Validation Score: 0.8258**
 
-Validation Accuracy: 0.8101
+-** Validation Accuracy: 0.8101**
 
 Feature importance analysis indicates that the most influential predictors are:
 
-Sex
+-** Sex**
 
-Passenger Class (Pclass)
+-**Passenger Class (Pclass)**
 
-Fare
+-** Fare**
 
 These findings align with historical accounts of evacuation priorities during the Titanic disaster.
 
-Future Work
+## Future Work
 
 Potential improvements include:
 
-applying Gradient Boosting models such as XGBoost or LightGBM
+- applying Gradient Boosting models such as XGBoost or LightGBM
 
-experimenting with ensemble learning techniques
+- experimenting with ensemble learning techniques
 
-implementing feature selection methods
+- implementing feature selection methods
 
-improving model interpretability using SHAP values
+- improving model interpretability using SHAP values
 
-containerizing the project using Docker
+- containerizing the project using Docker
 
-deploying the application to a public cloud environment
+- deploying the application to a public cloud environment
 
-License
+## License
 
 This project is licensed under the MIT License.
