@@ -158,7 +158,7 @@ output evaluation metrics
 
 generate a prediction file
 
-6. Launch the interactive application
+### 6. Launch the interactive application
 
 ```bash
 python app_gradio.py
@@ -171,21 +171,21 @@ http://localhost:7860
 
 The baseline Random Forest model achieved a validation accuracy of:
 
--** 0.8156**
+- **0.8156**
 
 After feature engineering and hyperparameter optimization using GridSearchCV:
 
--** Best Cross-Validation Score: 0.8258**
+- **Best Cross-Validation Score: 0.8258**
 
--** Validation Accuracy: 0.8101**
+- **Validation Accuracy: 0.8101**
 
 Feature importance analysis indicates that the most influential predictors are:
 
--** Sex**
+- **Sex**
 
--**Passenger Class (Pclass)**
+- **Passenger Class (Pclass)**
 
--** Fare**
+- **Fare**
 
 These findings align with historical accounts of evacuation priorities during the Titanic disaster.
 
